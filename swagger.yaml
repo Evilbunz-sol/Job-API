@@ -22,13 +22,13 @@ paths:
               allOf:
               - $ref: '#/components/schemas/RegisterUserRequest'
               - example:
-                  name: Anum
-                  email: Anum@onlyfans.com
-                  password: sexysexy
+                  name: Jameel
+                  email: Jameel@gmail.com
+                  password: secret
             example:
-              name: Anum
-              email: Anum@onlyfans.com
-              password: sexysexy
+              name: Jameel
+              email: Jameel@gmail.com
+              password: secret
         required: true
       responses:
         '200':
@@ -51,11 +51,11 @@ paths:
               allOf:
               - $ref: '#/components/schemas/LoginUserRequest'
               - example:
-                  email: Anum@onlyfans.com
-                  password: sexysexy
+                  email: Jameel@gmail.com
+                  password: secret
             example:
-              email: Anum@onlyfans.com
-              password: sexysexy
+              email: Jameel@gmail.com
+              password: secret
         required: true
       responses:
         '200':
@@ -182,9 +182,9 @@ components:
         password:
           type: string
       example:
-        name: Anum
-        email: Anum@onlyfans.com
-        password: sexysexy
+        name: Jameel
+        email: Jameel@gmail.com
+        password: secret
     LoginUserRequest:
       title: LoginUserRequest
       required:
@@ -197,8 +197,8 @@ components:
         password:
           type: string
       example:
-        email: Anum@onlyfans.com
-        password: sexysexy
+        email: Jameel@gmail.com
+        password: secret
     CreateJobRequest:
       title: CreateJobRequest
       required:
